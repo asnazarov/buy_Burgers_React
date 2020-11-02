@@ -8,7 +8,7 @@
       "types": [0, 1],
       "sizes": ["Junior", "Middle", "Senior"],
       "price": 803,
-      "category": 0,
+      "category": 4,
       "rating": 4
     },
     {
@@ -16,9 +16,9 @@
       "imageUrl": "https://cdn1.savepice.ru/uploads/2020/10/28/125fd1d755be92efe1bb937ac7ff745c-full.jpg",
       "name": "Сырный",
       "types": [0],
-      "sizes": ["Junior", "Senior"],
+      "sizes": ["Junior", "", "Senior"],
       "price": 245,
-      "category": 1,
+      "category": 0,
       "rating": 6
     },
     {
@@ -26,9 +26,9 @@
       "imageUrl": "https://cdn1.savepice.ru/uploads/2020/10/28/07bc396e24423e1c30651bc22590cc59-full.jpg",
       "name": "Цыпленок барбекю",
       "types": [0],
-      "sizes": ["Junior", "Senior"],
+      "sizes": ["Junior", "", "Senior"],
       "price": 295,
-      "category": 1,
+      "category": 2,
       "rating": 4
     },
     {
@@ -38,7 +38,7 @@
       "types": [1],
       "sizes": ["Junior", "Middle", "Senior"],
       "price": 275,
-      "category": 2,
+      "category": 4,
       "rating": 2
     },
     {
@@ -48,7 +48,7 @@
       "types": [0, 1],
       "sizes": ["Junior", "Middle", "Senior"],
       "price": 415,
-      "category": 3,
+      "category": 0,
       "rating": 8
     },
     {
@@ -56,7 +56,7 @@
       "imageUrl": "https://cdn1.savepice.ru/uploads/2020/10/28/3e624059745ca77754f263e31866a1ad-full.jpg",
       "name": "Ржаной бургер",
       "types": [1],
-      "sizes": ["Middle", "Senior"],
+      "sizes": ["", "Middle", "Senior"],
       "price": 580,
       "category": 2,
       "rating": 2
@@ -68,7 +68,7 @@
       "types": [0, 1],
       "sizes": ["Junior", "Middle", "Senior"],
       "price": 675,
-      "category": 1,
+      "category": 0,
       "rating": 9
     },
     {
@@ -78,7 +78,7 @@
       "types": [0, 1],
       "sizes": ["Junior", "Middle", "Senior"],
       "price": 450,
-      "category": 4,
+      "category": 3,
       "rating": 10
     },
     {
@@ -88,7 +88,7 @@
       "types": [0, 1],
       "sizes": ["Junior", "Middle", "Senior"],
       "price": 395,
-      "category": 5,
+      "category": 4,
       "rating": 10
     },
     {
@@ -98,7 +98,7 @@
       "types": [0, 1],
       "sizes": ["Junior", "Middle", "Senior"],
       "price": 285,
-      "category": 5,
+      "category": 1,
       "rating": 7
     }
   ]
