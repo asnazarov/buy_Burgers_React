@@ -30,7 +30,7 @@ const Home = () => {
   const cartItems = useSelector(({cart}) => cart.items)
   const isLoaded = useSelector(({burgers}) => burgers.isLoaded)
   const {category, sortBy} = useSelector(({filters}) => filters)
-console.log(cartItems)
+  // console.log(cartItems)
   useEffect(() => {
     dispatch(fetchBurgers(category, sortBy))
   }, [category, sortBy])
@@ -40,11 +40,10 @@ console.log(cartItems)
   }, [dispatch])
 
   const onSelectSortType = useCallback((type) => {
-    console.log(type)
     dispatch(setSortBy(type))
   }, [dispatch])
 
-  const handleAddBurderToCart = obj => {
+  const handleAddBurgerToCart = obj => {
     dispatch(addBurderToCart(obj))
   }
 
@@ -65,9 +64,9 @@ console.log(cartItems)
       <h2 className="content__title">Все бургеры</h2>
       <div className="content__items">
         {isLoaded ? (items?.map(obj => <BurgersBlock
-            onClickAddBurger={handleAddBurderToCart}
+            onClickAddBurger={handleAddBurgerToCart}
             key={obj.id}
-            addedCount={cartItems[obj.id] && cartItems[obj.id].length}
+            addedCount={cartItems[obj.id] && cartItems[obj.id].items.length}
             {...obj} />)
         ) : (
           Array(10).fill(<LoadingBlock/>)

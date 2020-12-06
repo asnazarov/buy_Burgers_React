@@ -1,9 +1,7 @@
-import classNames from 'classnames';
 import logoSvg from "../assets/img/hamburger-31775.svg";
 import Button from './Button'
 import {Link} from "react-router-dom";
 import {useSelector} from "react-redux";
-import cart from "../redux/reducers/cart";
 
 const Header = () => {
   const {totalPrice, totalCount} = useSelector(({cart}) => (cart))

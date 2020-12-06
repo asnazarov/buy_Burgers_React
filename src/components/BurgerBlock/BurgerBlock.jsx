@@ -13,8 +13,8 @@ const BurgerBlock = ({id, name, imageUrl, price, types, sizes, onClickAddBurger,
   const onSelectType = (index) => {
     setActiveType(index)
   }
-  const onSelectSize = (index) => {
 
+  const onSelectSize = (index) => {
     setActiveSize(index)
   }
 
